@@ -3,7 +3,7 @@ package test;
 import domain.*;
 
 
-public class EstudanteTest02 {
+public class A2EstudanteTest02 {
     public static void main(String[] args) {
         Estudante estudante = new Estudante();
         Estudante estudant2 = new Estudante();
