@@ -1,7 +1,6 @@
-public package domain;
-
-class Professor {
-    public String nome;
+package domain;
+public class Professor {
+    public String nome = "andre";
     public int idade;
     public char genero;
     
