@@ -9,7 +9,7 @@ public class Contas {
         return 10;
        }
 
-        public void multiplicaDoisNumeros(int num1 , int num2){
+        public void multiplicaDoisNumeros(int num1 , float num2, int num3){
             System.out.println(num1 * num2);
 
         }
