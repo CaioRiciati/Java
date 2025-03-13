@@ -27,5 +27,13 @@ public class EstudanteTest02 {
         estudante01.imprime();
         estudante01.imprime();
         estudante01.imprime();
+
+        System.out.println("------------");
+        int[] numeros = {24,214,54,34};
+
+        for (int i : numeros) {
+            System.out.println(i);
+            
+        }
     }
 }

@@ -38,4 +38,13 @@ public class Contas {
         System.out.println("num2: " + numero2);
     }
 
+    public void somaArray(int[] numeros){
+        int soma = 0;
+        for (int i: numeros) {
+            soma += i;
+            
+        }
+        System.out.println(soma);
+    }
+
 }
