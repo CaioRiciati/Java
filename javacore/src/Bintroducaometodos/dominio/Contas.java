@@ -30,7 +30,7 @@ public class Contas {
         }
     }
 
-    public void alteraDoisNumeros(int numero1, int numero2){
+    public void alteraDoisNumeros(int numero1, int numero2) {
         numero1 = 99;
         numero2 = 33;
         System.out.println("dentro do alteraDoisNumeros");
@@ -38,13 +38,22 @@ public class Contas {
         System.out.println("num2: " + numero2);
     }
 
-    public void somaArray(int[] numeros){
+    public void somaArray(int[] numeros) {
         int soma = 0;
-        for (int i: numeros) {
+        for (int i : numeros) {
             soma += i;
-            
+
         }
         System.out.println(soma);
     }
+
+public void somaVarArgs(double valor, int... numeros) {
+        double soma = valor;
+        for (int i : numeros) {
+        soma += i;
+
+        }
+        System.out.println(soma);
+}
 
 }
