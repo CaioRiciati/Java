@@ -34,7 +34,7 @@ public class Exercicio3 {
 		System.out.println();
 		System.out.println(bk.imprimir());
 		
-		//depositar valor na conta
+		//depositar valor na conta 
 		System.out.println("enter a deposit value: ");
 		double DepositV = sc.nextInt();
 		System.out.println();
