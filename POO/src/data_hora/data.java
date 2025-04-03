@@ -3,24 +3,27 @@ package data_hora;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 
 public class data {
 	public static void main(String[] args) {
-		LocalDate data = LocalDate.now();
-		LocalDateTime data2 = LocalDateTime.now();
-		Instant data3 = Instant.now();
+		
 		
 		LocalDate data4 = LocalDate.parse("2022-02-03");
 		LocalDateTime data5 = LocalDateTime.parse("2022-02-03T01:30:23");
 		Instant data6 = Instant.parse("2022-02-03T01:30:23Z");
-		Instant data7 = Instant.parse("2022-02-03T01:30:23+03:00");
 		
-		System.out.println(data);
-		System.out.println(data2);
-		System.out.println(data3);
-		System.out.println(data4);
-		System.out.println(data5);
-		System.out.println(data6);
-		System.out.println(data7);
+		DateTimeFormatter formato1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+		DateTimeFormatter formato2 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH: mm");
+		DateTimeFormatter formato3 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH: mm").withZone(ZoneId.systemDefault());
+		
+		
+		LocalDate dataAgr = LocalDate.now();
+		LocalDateTime dataagrr = LocalDateTime.now();
+		System.out.println(dataAgr.format(formato1));
+		System.out.println(dataagrr.format(formato2));
+		
+		
 	}
 }
