@@ -1,10 +1,9 @@
 package entities;
 
 public class Account {
-	private Integer number;
+	private Integer number; int
 	private String holder;
 	protected Double balance;
-	
 
 
 	public Account() {
