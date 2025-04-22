@@ -1,0 +1,20 @@
+package meuprojeto;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class exercicio01 {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		int x = 0;
+		int y = 4;
+		
+		while(x<3) {
+			y = y+2;
+			x=x+1;
+		}
+		System.out.println(x + "-" + y);
+		
+	}
+}

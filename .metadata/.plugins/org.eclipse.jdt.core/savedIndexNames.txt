@@ -1,0 +1,12 @@
+INDEX VERSION 1.134+C:\Users\esdra\OneDrive\Documentos\ws-eclipse\.metadata\.plugins\org.eclipse.jdt.core
+549600552.index
+1988290194.index
+2538789529.index
+127970955.index
+1570852477.index
+1865797976.index
+591889177.index
+1195027989.index
+1551121708.index
+3930077597.index
+2393995991.index

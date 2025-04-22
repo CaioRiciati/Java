@@ -1,0 +1,26 @@
+package application;
+
+import entities.Account;
+import entities.BusinessAccount;
+
+public class Program {
+	public static void main(String[] args) {
+		Account acc = new Account( 1234, "alex", 0.0);
+		BusinessAccount bacc = new BusinessAccount(2133, "andre", 0.0, 500.0);
+		
+		//upcasting
+		
+		Account acc1 = bacc;
+		// um Account pode receber um businessAccount pq é uma relação é-um o bussinessAccount ainda é-um Account
+		
+		Account acc2 = new BusinessAccount(5423, "antonio", 0.0, 200.0);
+		
+		
+		//downcasting
+		
+		BusinessAccount acc4 = (BusinessAccount)acc2;
+		
+		System.out.println(acc4);
+	}
+	
+}

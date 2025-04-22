@@ -1,0 +1,28 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Shape;
+
+public class Program {
+	public static void main(String[] args) {
+	Locale.setDefault(Locale.US);
+	Scanner sc = new Scanner(System.in);
+	List<Shape> list = new ArrayList<>();
+	
+	System.out.print("Enter the number of shapes:  ");
+	Integer n = sc.nextInt();
+	
+	System.out.println("Enter your name: ");
+	String name = sc.nextLine();
+	
+	System.out.println(name);
+	
+	System.out.println(n);
+	
+	
+	}
+}

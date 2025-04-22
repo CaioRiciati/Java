@@ -1,0 +1,16 @@
+package entities;
+
+public class pessoas {
+
+	public String Nome;
+	public int Idade;
+	
+	
+	public String apresentar() {
+		
+		return Nome +" you are "+ Idade + "years old, Right?";
+		 
+	}
+	
+	
+}
