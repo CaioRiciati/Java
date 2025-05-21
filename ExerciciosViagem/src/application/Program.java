@@ -65,6 +65,7 @@ public class Program {
 	
 	System.out.print("your stats are");
 	cl.printStats();
+	System.out.println("**********************");
 	
 
 	sc.close();
