@@ -24,4 +24,9 @@ public abstract class Shape {
 	
 	
 	public abstract Double area();
+
+
+	public void setColor2(Colors color) {
+		this.color = color;
+	}
 }
